@@ -29,7 +29,7 @@ CSRF_ENABLED = True
 #---------------------------------------------------------
 # Following instructions from https://medium.com/@aungmt/superset-with-google-oauth-3ba7a1c1f459
 
-AUTH_TYPE = AUTH_OAUTH
+AUTH_TYPE = 'AUTH_OAUTH'
 AUTH_USER_REGISTRATION = True
 AUTH_USER_REGISTRATION_ROLE = 'Public'
 
