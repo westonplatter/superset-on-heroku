@@ -2,3 +2,4 @@ pylibmc==1.5.1
 superset==0.20.4
 psycopg2==2.7.3
 MySQL-python==1.2.5
+Flask-OAuthlib==0.9.4
