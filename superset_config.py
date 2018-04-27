@@ -16,8 +16,6 @@ SECRET_KEY = '\2\1thisismyscretkey\1\2\e\y\y\h'  # noqa
 CACHE_CONFIG = {
     'CACHE_TYPE': 'redis',
     'CACHE_DEFAULT_TIMEOUT': 60*60*24,
-    'CACHE_KEY_PREFIX': 'superset_',
-    'CACHE_REDIS_HOST': 'redis',
     'CACHE_REDIS_DB': 1,
     'CACHE_REDIS_URL': os.environ['REDIS_URL']
 }
