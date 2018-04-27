@@ -5,7 +5,7 @@
   "repository": "https://github.com/romulomadu/superset-on-heroku",
   "addons": [
     "papertrail",
-    "heroku-postgresql"
+    "heroku-postgresql",
     "heroku-redis"
   ],
   "buildpacks": [
